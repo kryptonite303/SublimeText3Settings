@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+.hrecipe {
+	line-height: 17px !important;
+	background-color: #f2f1ef !important;
+	margin-top: 5px !important;
+	margin-bottom: 12px !important;
+	padding: 15px 30px 10px !important;
+	border-style: none !important;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hrecipe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

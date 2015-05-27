@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+.recipe {
+	background-color:  #ddd;
+	border: 1px solid #ebeaeb;
+  	margin: 35px 0 25px;
+  	padding: 30px 30px 20px;
+	h2 {
+		font-weight: 300;
+  		color: #c7290e;
+  		font-size: 26px;
+	}
+	p {
+		margin-top: 5px;
+  		margin-bottom: 12px;
+	}
+	.time {
+		color: #757273;
+  		font-size: 11px;
+  		font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+  		text-transform: uppercase;
+  		font-style: normal;
+  		margin: 0;
+	}
+	h3 {
+		color: #c7290e;
+  		text-transform: uppercase;
+  		letter-spacing: .05em;
+  		font-weight: normal;
+  		font-size: 13px;
+	}
+	.ingredients {
+		margin-bottom: 20px;
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>recipe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

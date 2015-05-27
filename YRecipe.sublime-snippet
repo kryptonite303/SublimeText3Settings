@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+.yrecipe {
+	padding: 10px;
+	background-color: #eee;
+	.item {
+		border-bottom: 1px solid #000;
+		#yrecipe-title {
+			padding-bottom: 0.5em;
+		}
+	}
+	#yrecipe-title {
+		font-size: 1.8em;
+  		line-height: 1.25;
+	}
+	.h-4 {
+		font-weight: 500;
+		font-size: 1.2em;
+	}
+	.ingredient {
+		list-style-type: disc;
+  		margin: 1em 0 0 -3px;
+  		padding: 0 0 0 0 em;
+	}
+	.instruction {
+		list-style-type: decimal;
+  		margin: 1em 0 0 -3px;
+  		padding: 0 0 0 0 em;
+	}
+	.y-linkback {
+		font-size: 0.875em;
+  		color: #aaa;
+  		margin-top: 2em;
+  		text-shadow: none;
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>yrecipe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

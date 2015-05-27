@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+'?killScripts': function() {
+	var scripts = \$('script');
+    \$('script').each(function(){
+        if(this.innerHTML.match(/${1:match}/g) == null && !(\$(this).attr('x-src') || '').match(/${1:match}/g)){
+            \$(this).remove();
+        }
+    })
+    return scripts;
+},
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>killscripts</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

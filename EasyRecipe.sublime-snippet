@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+.easyrecipe {
+	background-color: #eee !important;
+	clear: both !important;	
+	padding: 10px !important;
+	border: 1px dashed #666 !important;
+	.ERSSectionHead {
+		font-size: 1.5em !important;
+	}
+	.ERSName {
+		font-size: 2em !important;
+		line-height: 1em !important;
+	}
+	.ERSTime {
+	width: 125px !important;
+	float: left !important;
+	}
+	.ERSHeading {
+		border-top: 1px dotted #ddd !important;
+		border-bottom: 1px dotted #ddd !important;
+		font-size: 2em !important;
+		line-height: 1.5em !important;
+		ul {
+			padding-bottom: 10px !important;
+		}
+	}
+	.ERSSummary {
+		clear: both !important;
+	}
+	.divERSHeadItems {
+		padding-bottom: 10px !important;
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>easyrecipe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

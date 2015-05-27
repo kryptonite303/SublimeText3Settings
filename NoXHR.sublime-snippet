@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+var cat = item.find('.categories').text();
+datum.noxhr = (cat.search(/Giveaways/))?true:false;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>noxhr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

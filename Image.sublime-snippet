@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+var image = item.find('img').attr('x-src');
+                if(typeof image !== 'undefined'){
+                    image = image.replace(/-130x130/,'')
+                }
+                datum.image = image;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>image</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
