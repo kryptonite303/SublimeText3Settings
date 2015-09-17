@@ -1,13 +1,29 @@
 {
+<<<<<<< HEAD
 	"bootstrapped": true,
+=======
+>>>>>>> 8a0d5a25f0273c7c64d8e226455126fc7299b2fb
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+<<<<<<< HEAD
 		"Package Control",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-csslint"
+=======
+		"BracketHighlighter",
+		"Dayle Rees Color Schemes",
+		"Emmet",
+		"Package Control",
+		"Predawn",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint"
+>>>>>>> 8a0d5a25f0273c7c64d8e226455126fc7299b2fb
 	]
 }

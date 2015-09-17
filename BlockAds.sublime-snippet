@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{
+	'block_article_ads': function(){
+	    if((${1:.recipe}).length > 0 ){
+	        return 'no-in-article-ads';
+	    }
+}, 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>blockads</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
