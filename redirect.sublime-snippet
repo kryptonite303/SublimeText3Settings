@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+        'templateName': 'redirect',
+        '!match': Mobify.urlmatch('/'),
+        'redirect': function(context){
+            return context.data('simpli.conf.homepage');
+        }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redirect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.konf</scope>
+	<description>redirect</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"siteMapping": {
+    "menu": {
+        "custom_mapping": {
+            "menu_selectors": ".ps_menu_class_1"
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

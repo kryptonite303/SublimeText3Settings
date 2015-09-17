@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+function put_${1:var} (\$${1:var}) {
+    \$${1:var} = sprintf('<div class="ps-${1:var}" style="display: none !important"></div>%s', \$${1:var});
+    return \$${1:var};
+}
+add_filter('${1:var}', 'put_${1:var}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>putfunction</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

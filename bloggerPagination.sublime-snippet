@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+if (!window.paginationCount) {
+                window.paginationCount = 0;
+            }
+            window.paginationCount++;
+            var today = new Date();
+            var diff = 25 * window.paginationCount;
+            // Go back a week
+            var limit = new Date(today.setDate(today.getDate() - diff));
+
+            var year = limit.getFullYear().toString();
+            var month = limit.getMonth().toString();
+            if (month.length == 1) {
+                month = "0" + month;
+            }
+            var date = limit.getDate().toString();
+            if (date.length == 1) {
+                date = "0" + date;
+            }
+            return "/search?updated-max=" + year + "-" + month + "-" + date + "T07:51:00-07:00&max-results=20/";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bloggerPagination</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

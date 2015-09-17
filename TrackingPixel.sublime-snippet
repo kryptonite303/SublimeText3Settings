@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+var image = item.find('img')[0];
+    if (image != null) {
+        if (\$(image).attr('x-width') == 0) {
+            var image1 = item.find('img')[1];
+            image = \$(image1).attr('x-src');
+            
+        } else {
+            image = \$(image).attr('x-src');
+        }
+        if(typeof image !== 'undefined'){
+            image = image.replace(/-150x150/,'')
+        }
+    }
+datum.image = image;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>trackingpixel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

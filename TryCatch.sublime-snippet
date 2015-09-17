@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+try {
+	${1:code}	
+} catch (e) {
+	console.log(e);
+	${2:code}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryCatch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

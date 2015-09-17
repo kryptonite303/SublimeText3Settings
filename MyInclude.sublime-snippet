@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+{
+    match: 'include_${1:name}',
+    replacement: '<%= grunt.file.read("src/modules/${1:name}.js") %>'
+},
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>myinclude</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

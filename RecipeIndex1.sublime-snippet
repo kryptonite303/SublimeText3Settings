@@ -1,0 +1,59 @@
+<snippet>
+	<content><![CDATA[
+.recipes-top {
+  background: #f5f5f5 !important;
+  padding: 20px!important;
+  overflow: auto!important;
+  text-align: center !important;
+  display: inline-block !important;
+  .widget {
+    float: left !important;
+    margin-right: 1% !important;
+    margin-bottom: 20px !important;
+    div {
+      box-sizing: border-box !important;
+      .widgettitle {
+        text-transform: uppercase !important;
+        font-style: italic !important;
+        font-size: 1em !important;
+        margin-bottom: 1px !important;
+      }
+    }
+  }
+}
+
+.recipes-bottom {
+  margin-top: 20px !important;
+  .widget {
+    border-bottom: 1px dotted #333 !important;
+    clear: both !important;
+    display: block !important;
+    overflow: hidden !important;
+    padding: 20px 0 !important;
+    .widgettitle {
+      font-size: 22px !important;
+    }
+    .entry {
+      width: 150px !important;
+      max-height: 300px !important;
+      margin-right: 5px !important;
+      text-align: center !important;
+      padding: 0 !important;
+      margin-bottom: 20px !important;
+      float: left !important;
+      display: block !important;
+      .entry-title {
+        font-size: 18px !important;
+      }
+    }
+    .more-from-category {
+      clear: both !important;
+    }
+  }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>recipeIndex1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
