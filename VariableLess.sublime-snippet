@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+@menu-bg-color: #e8e8e8;
+@menu-link-color: #000;
+@menu-highlight-color: #ddd;
+
+@header-bg-color: #fff;
+@header-border-color: #888;
+@header-button-color: #c5c5c5; 
+
+@article-bg-color: #fff;
+@article-text-color: #000;
+@article-link-color: #555555;
+
+@panel-bg-color: #cccccc;
+@panel-height: 324px;
+@panel-title-size: 24px;
+@panel-title-color: #fff;
+@panel-title-bg-color: #000;
+@panel-title-bg-color-opacity: .7;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>variable</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

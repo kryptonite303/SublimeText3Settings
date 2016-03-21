@@ -1,0 +1,17 @@
+[03/21/2016 09:37:36AM] INFO - ==== Loading 'Xdebug Client.sublime-package' package ====
+[03/21/2016 09:37:36AM] INFO - Failed to open /home/q/.config/sublime-text-3/Packages/User/Xdebug.expressions.
+[03/21/2016 09:37:36AM] INFO - Failed to parse /home/q/.config/sublime-text-3/Packages/User/Xdebug.expressions.
+[03/21/2016 09:39:22AM] WARNING - Could not import subprocess32 module, falling back to subprocess module
+[03/21/2016 09:39:22AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/padsquad_article.php' lang: HTML
+[03/21/2016 09:40:06AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: PHP
+[03/21/2016 09:43:53AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: PHP
+[03/21/2016 09:44:08AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: PHP
+[03/21/2016 09:44:29AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: HTML
+[03/21/2016 09:44:50AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: HTML
+[03/21/2016 09:45:02AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: PHP
+[03/21/2016 09:45:16AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: HTML
+[03/21/2016 09:45:28AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: PHP
+[03/21/2016 09:45:53AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: HTML
+[03/21/2016 09:46:06AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: HTML
+[03/21/2016 09:46:19AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/article_content.php' lang: HTML
+[03/21/2016 09:47:10AM] INFO - scan_purelang: path: '/home/q/vagrant-local/www/wordpress-default/wp-content/plugins/psplugin/wordpress-core-plugin/templates/padsquad_article.php' lang: PHP

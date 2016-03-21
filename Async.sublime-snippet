@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+async.auto({
+    ${1:name}: function (callback) {
+		${3:function}
+    },
+    ${2:name1}: [
+        "${1:name}",
+        function (callback, result) {
+        	${4:function1}
+        }
+    ]
+},
+function (err, result) {
+    if (err) {
+    	${5:err}
+    }
+    ${6:result}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>async</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-function ${1:name}(${2:params}) {
-	${3://code}
-}
+echo '<pre>';
+var_dump(${1:var});
+echo '</pre>';
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>function</tabTrigger>
+	<tabTrigger>prettyPrint</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js, source.php</scope>
+	<scope>source.php</scope>
 </snippet>

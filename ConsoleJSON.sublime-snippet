@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-function ${1:name}(${2:params}) {
-	${3://code}
-}
+console.log(JSON.stringify(${1:JSON}, null, 4));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>function</tabTrigger>
+	<tabTrigger>consoleJson</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js, source.php</scope>
+	<scope>source.js</scope>
 </snippet>
